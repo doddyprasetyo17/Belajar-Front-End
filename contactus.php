@@ -31,38 +31,42 @@
 
     <section id="forminput">
         <div class="container">
-            <form>
-                <div class="form-row justify-content-center">
-                    <div class="col-5">
-                        <div class="form-group">
-                            <label for="exampleFormControlInput1">Nama Lengkap</label>
-                            <input type="text" class="form-control" placeholder="Nama Lengkap" value="">
+            <div class="d-flex justify-content-center login-box">
+                <div class="col-lg-10 text-left">
+                    <form>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="form-control-label m-0">Nama Lengkap</label>
+                                    <input type="text" class="form-control" placeholder="Nama Lengkap" value="">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-control-label m-0">Alamat Lengkap</label>
+                                    <input type="text" class="form-control" placeholder="Alamat Lengkap">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="form-control-label m-0">Email</label>
+                                    <input type="email" class="form-control" placeholder="Email" value="">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-control-label m-0">Nomor Telepon</label>
+                                    <input type="text" class="form-control" placeholder="Nomor Telepon">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label class="form-control-label m-0">Pesan</label>
+                                    <textarea class="form-control" placeholder="Tulis Pesan" rows="5"></textarea>
+                                </div>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlInput2">Alamat Lengkap</label>
-                            <input type="text" class="form-control" placeholder="Alamat Lengkap">
-                        </div>
-                    </div>
-                    <div class="col-5">
-                        <div class="form-group">
-                            <label for="exampleFormControlInput3">Email</label>
-                            <input type="email" class="form-control" placeholder="Email" value="">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlInput4">Nomor Telepon</label>
-                            <input type="text" name="telepon" class="form-control" placeholder="Nomor Telepon">
-                        </div>
-                    </div>
-                    <div class="col-10">
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Pesan</label>
-                            <textarea class="form-control" placeholder="Tulis Pesan" rows="5"></textarea>
-                        </div>
-                    </div>
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
                 </div>
-                <button type="submit" class="btn btn-primary">Kirim</button>
-            </form>
-        </div>
+            </div>
     </section>
     <!-- End Maps -->
 
